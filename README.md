@@ -34,14 +34,3 @@ Acest proiect este o simplă aplicație Java pentru gestionarea unui magazin de 
 ## Autor
 
 Proiectul a fost creat de [Oprea Madalin].
-
-## Contribuții
-
-Contribuții sunt binevenite! Dacă dorești să contribui la dezvoltarea acestui proiect, te rog să urmezi pașii de mai jos:
-
-1. Fork proiectul
-2. Creează-ți o ramură de lucru (`git checkout -b feature/noua-functie`)
-3. Adaugă-ți modificările
-4. Comite-ți modificările (`git commit -am 'Adăugat o nouă funcționalitate'`)
-5. Trimitere modificărilor (`git push origin feature/noua-functie`)
-6. Deschide un Pull Request
