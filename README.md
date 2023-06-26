@@ -24,12 +24,12 @@ Acest proiect este o simplă aplicație Java pentru gestionarea unui magazin de 
 
 - JDK (Java Development Kit) instalat
 - IDE compatibil cu Java (de exemplu, IntelliJ, Eclipse)
-- Conexiune la internet (pentru descărcarea dependențelor Maven)
+- Conexiune la internet (pentru descărcarea dependințelor Maven)
 
-## Dependențe
+## Dependințe
 
 - JUnit 5: utilizat pentru testarea unitară a codului.
-    - Pentru a rula testele, asigură-te că ai descărcat dependența JUnit 5 în fișierul `pom.xml` (pentru Maven) sau în fișierul de configurare corespunzător pentru software-ul folosit.
+    - Pentru a rula testele, asigură-te că ai descărcat dependința JUnit 5 în fișierul `pom.xml` (pentru Maven) sau în fișierul de configurare corespunzător pentru software-ul folosit.
 
 ## Autor
 
