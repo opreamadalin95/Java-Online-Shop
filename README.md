@@ -33,4 +33,4 @@ Acest proiect este o simplă aplicație Java pentru gestionarea unui magazin de 
 
 ## Autor
 
-Proiectul a fost creat de [Oprea Madalin].
+Proiectul a fost creat de Oprea Madalin.
