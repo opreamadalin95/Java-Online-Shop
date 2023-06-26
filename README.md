@@ -15,7 +15,7 @@ Acest proiect este o simplă aplicație Java pentru gestionarea unui magazin de 
 ## Utilizare
 
 1. Deschide proiectul într-un IDE compatibil cu Java (de exemplu, IntelliJ, Eclipse).
-2. Asigură-te că ai setat corect configurările de proiect și că toate dependențele sunt descărcate.
+2. Asigură-te că ai setat corect configurările de proiect și că toate dependințele sunt descărcate.
 3. Rulează clasa `Main.java` pentru a porni aplicația.
 4. Urmărește instrucțiunile afișate în consolă pentru a selecta produsele și cantitatea dorită.
 5. Aplicația va afișa prețul final pentru produsul selectat.
