@@ -29,7 +29,7 @@ Acest proiect este o simplă aplicație Java pentru gestionarea unui magazin de 
 ## Dependențe
 
 - JUnit 5: utilizat pentru testarea unitară a codului.
-    - Pentru a rula testele, asigură-te că ai descărcat dependența JUnit 5 în fișierul `pom.xml` (pentru Maven) sau în fișierul de configurare corespunzător pentru sistemul de construire folosit.
+    - Pentru a rula testele, asigură-te că ai descărcat dependența JUnit 5 în fișierul `pom.xml` (pentru Maven) sau în fișierul de configurare corespunzător pentru software-ul folosit.
 
 ## Autor
 
