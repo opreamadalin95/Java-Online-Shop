@@ -20,11 +20,11 @@ public class Produs {
         return discount;
     }
 
-    public void setCantitate(int cantitate) {
+    public void setQuantity(int cantitate) {
         this.cantitate = cantitate;
     }
 
-    public int getCantitate() {
+    public int getQuantity() {
         return cantitate;
     }
 
@@ -33,11 +33,11 @@ public class Produs {
         return discountprodus;
     }
 
-    public double getPretFinal() {
+    public double getFinalPrice() {
         return pretfinal = pret * (100 - getDiscount()) / 100 * cantitate;
 
     }
-    public double getPret () {
+    public double getPrice () {
         return pret;
 
     }
