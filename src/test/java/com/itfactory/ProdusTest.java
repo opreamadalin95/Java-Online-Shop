@@ -7,9 +7,9 @@ public class ProdusTest {
     private Produs produs;
 
     @Test
-    public void testCalculateFinalPrice(){
-        produs = new Produs("Pantaloni",15.0,20,1);
-        double pret = produs.getFinalPrice();
+    public void testCalculatePretFinal() {
+        produs = new Produs("Pantaloni", 15.0, 20, 1);
+        double pret = produs.getPretFinal();
         Assertions.assertEquals(pret, 12.0);
 
     }
@@ -23,18 +23,18 @@ public class ProdusTest {
     }
 
     @Test
-    public void testFinalPriceWithMultipleQuantity() {
+    public void testPretFinalWithMultipleQuantity() {
         produs = new Produs("Produs 2", 50.0, 10, 3);
         double expectedFinalPrice = 135.0;
-        double actualFinalPrice = produs.getFinalPrice();
+        double actualFinalPrice = produs.getPretFinal();
         Assertions.assertEquals(expectedFinalPrice, actualFinalPrice);
     }
 
     @Test
-    public void testFinalPriceWithZeroQuantity() {
+    public void testPretFinalWithZeroQuantity() {
         produs = new Produs("Produs 3", 30.0, 5, 0);
         double expectedFinalPrice = 0.0;
-        double actualFinalPrice = produs.getFinalPrice();
+        double actualFinalPrice = produs.getPretFinal();
         Assertions.assertEquals(expectedFinalPrice, actualFinalPrice);
     }
 }

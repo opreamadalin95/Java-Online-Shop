@@ -8,7 +8,7 @@ public class Produs {
     private int cantitate;
     private double pretfinal;
 
-    public Produs(String nume, double pret, int discount, int cantitate) {
+    public Produs( String nume, double pret, int discount, int cantitate ) {
         this.nume = nume;
         this.pret = pret;
         this.discount = discount;
@@ -20,11 +20,11 @@ public class Produs {
         return discount;
     }
 
-    public void setQuantity(int cantitate) {
+    public void setCantitate( int cantitate ) {
         this.cantitate = cantitate;
     }
 
-    public int getQuantity() {
+    public int getCantitate() {
         return cantitate;
     }
 
@@ -33,11 +33,12 @@ public class Produs {
         return discountprodus;
     }
 
-    public double getFinalPrice() {
+    public double getPretFinal() {
         return pretfinal = pret * (100 - getDiscount()) / 100 * cantitate;
 
     }
-    public double getPrice () {
+
+    public double getPret() {
         return pret;
 
     }
